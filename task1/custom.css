@@ -1,0 +1,79 @@
+.count-input{  
+    border: 0;
+    width: 20%;
+	padding-left:5px;
+	 font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 2px
+    ;min-width: 35px;
+    text-align: center;
+	 vertical-align: top;
+}
+.qtybox{
+	display: inline-flex;
+}
+
+#cart{
+	color:#ee3616;
+}
+
+
+.box3{
+	height: 200px;
+    background-color: blue;
+}
+
+.box2{
+	height: 200px;
+    background-color: black;
+	z-index: 1;
+	
+}
+.box4{
+	height: 200px;
+    background-color: grey;
+	z-index: 1;
+}
+.box5{
+	height: 250px;
+    background-color: green;
+	margin-top: 10%;
+	margin-left: -5%;
+	width: 38%;
+}
+
+.img3{
+	 margin-top: 4%;
+	
+}
+
+.img2{
+  position: relative;
+  animation-name: anm1;
+  animation-duration: 4s;
+  animation-iteration-count:1;
+  margin-top: -20%;
+}
+
+@keyframes anm1 {
+  0%   {left:0px; top:0px;}
+  75%  {left:0px; top:200px;}
+}
+
+.img4{
+  position: relative;
+  animation-name: anm2;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+  margin-top: -35%;
+}
+
+@keyframes anm2 {
+  75%  {left:0px; top:700px; opacity: 0;}
+  100%  {left:0px; top:500px;}
+}
+.section-two img{
+	width:80%;
+}
